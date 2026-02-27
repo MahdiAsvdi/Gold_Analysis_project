@@ -1,0 +1,17 @@
+﻿----- Gozaresh Tahlili Gheymat Tala -----
+Tarikh akharin dade vaghei: 2026-02-19
+Akharin gheymat sabt shode: 19,884,600
+Model montakhab: Tarkib Vazni Modelha (Weighted Ensemble)
+Best model dar backtest: Hamvarsazi Holt (Holt Linear)
+Andaze dade etebarsanji: 30 rooz
+Tedad split backtest: 3
+Khataye model montakhab: MAE: 949,504 | RMSE: 1,257,254 | MAPE: 6.20%
+Vazn modelha: Hamvarsazi Holt (Holt Linear): 35.0% | Holt Winters Additive: 34.8% | Holt Winters Damped: 30.2%
+
+Pishbini rooz aval (2026-02-20): 19,956,142
+Pishbini enteha-ye ofogh (2026-03-21): 22,312,914
+Baze eteminan 95% dar enteha-ye ofogh: 7,091,830 ta 37,533,998
+Jahat ravand pishbini-shode: Soodi
+
+Hoshdar: in khoroji faghat amoozeshi ast va nabayad tanha mabnaye tasmim mali bashad.
+--------------------------------

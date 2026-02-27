@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Gold Analysis Charts Dashboard</title>
+  <style>
+    body { font-family: Segoe UI, Arial, sans-serif; margin: 0; background: #f5f7fb; }
+    header { background: #111827; color: #fff; padding: 14px 18px; }
+    .toolbar { padding: 12px 14px; display: flex; gap: 8px; flex-wrap: wrap; background: #e5e7eb; }
+    button { background: #1f2937; color: #fff; border: 0; border-radius: 7px; padding: 8px 12px; cursor: pointer; }
+    button:hover { background: #374151; }
+    iframe { width: 100%; height: calc(100vh - 110px); border: 0; }
+  </style>
+</head>
+<body>
+  <header><h3>Gold Analysis Charts Dashboard</h3></header>
+  <div class="toolbar"><button onclick="openChart('forecast_overview')">Price and Forecast Overview</button>
+<button onclick="openChart('moving_averages')">Moving Averages</button>
+<button onclick="openChart('returns_distribution')">Daily Returns Analysis</button>
+<button onclick="openChart('weekday_pattern')">Weekday Pattern</button>
+<button onclick="openChart('model_comparison')">Model Accuracy Comparison</button>
+<button onclick="openChart('forecast_residuals')">Forecast Residual Diagnostics</button></div>
+  <iframe id="viewer" src="01_forecast_overview.html"></iframe>
+  <script>
+    const chartMap = {
+      'forecast_overview': '01_forecast_overview.html',
+'moving_averages': '02_moving_averages.html',
+'returns_distribution': '03_returns_distribution.html',
+'weekday_pattern': '04_weekday_pattern.html',
+'model_comparison': '05_model_comparison.html',
+'forecast_residuals': '06_forecast_residuals.html'
+    };
+    function openChart(name) {
+      const file = chartMap[name];
+      if (file) {
+        document.getElementById('viewer').src = file;
+      }
+    }
+  </script>
+</body>
+</html>

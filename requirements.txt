@@ -1,0 +1,9 @@
+﻿pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+requests>=2.31
+beautifulsoup4>=4.12
+plotly>=5.20
+statsmodels>=0.14
+PyQt5>=5.15
+PyQtWebEngine>=5.15
